@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0px;
+    font-weight:bold ;
+}
+nav{
+    width: 150px;
+    height: 510px;
+    background: salmon;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-content: space-around;
+}
+header{
+    width: 800px;
+    height: 130px;
+    background-color: brown;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+article{
+    width: 800px;
+    height: 280px;
+    background-color: rgb(218, 227, 185);
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+footer{
+    width: 800px;
+    height: 100px;
+    background-color: blueviolet;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
